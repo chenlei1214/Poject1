@@ -1,0 +1,17 @@
+# 该文件用于配置私钥对应的服务器
+# Default github user(619561590@qq.com)
+Host git@github.com
+HostName github.com
+User jawil
+IdentityFile ~/.ssh/id_rsa_github
+
+# gitlab user(chenlei@qq.com)
+# 建一个gitlab别名，新建的帐号使用这个别名做克隆和更新
+Host git@gitlab.alibaba-inc.com
+HostName gitlab.alibaba-inc.com
+User yenian.ll
+IdentityFile ~/.ssh/id_rsa
+
+Host jawil.github.com
+        HostName github.com
+        IdentityFile ~/.ssh/github_rsa
